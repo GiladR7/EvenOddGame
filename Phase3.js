@@ -81,7 +81,7 @@ function gameRound(playerOne, playerTwo, intetvalID, theGoodOf = 5) {
     console.log(`${theWinnerOfTournament} go to the Boss Level`);
     playersNamesAndScore[theWinnerOfTournament] = 0;
     playersNamesAndScore["Boss"] = 0;
-    roundNum = 0;
+    roundNum = 1;
   }
 }
 function startNewGame(theGoodOf = 5) {
